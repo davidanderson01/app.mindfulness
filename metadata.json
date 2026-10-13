@@ -1,0 +1,6 @@
+{
+  "name": "Elevate-Mindfulness",
+  "description": "Personalized daily mindfulness sessions, daily affirmations, guided breathing exercises, binaural beats, offline meditation, mindful fitness, sacred sanctuaries map, and a contemplative song studio with or without Lyria.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

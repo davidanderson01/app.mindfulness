@@ -188,7 +188,7 @@ export const SpiritualPlacesMap: React.FC = () => {
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         
         {/* Interactive SVG Projection Map (7 Cols on desktop) */}
-        <div className="lg:col-span-7 bg-stone-900 border border-stone-800 rounded-3xl p-4 sm:p-6 shadow-xl relative min-h-[460px] flex flex-col justify-between overflow-hidden">
+        <div className="lg:col-span-7 bg-stone-900 border border-stone-800 rounded-3xl p-4 sm:p-6 shadow-xl relative min-h-115 flex flex-col justify-between overflow-hidden">
           
           {/* Map Controls */}
           <div className="absolute top-6 right-6 z-20 flex flex-col gap-1.5 bg-stone-950/80 p-1.5 rounded-xl border border-stone-800 backdrop-blur-md">
@@ -224,7 +224,7 @@ export const SpiritualPlacesMap: React.FC = () => {
           </div>
 
           {/* SVG Map Canvas */}
-          <div className="relative w-full h-[380px] overflow-hidden rounded-2xl bg-stone-950/90 border border-stone-800/80 flex items-center justify-center">
+          <div className="relative w-full h-95 overflow-hidden rounded-2xl bg-stone-950/90 border border-stone-800/80 flex items-center justify-center">
             
             <svg
               viewBox="0 0 1000 500"
@@ -366,7 +366,7 @@ export const SpiritualPlacesMap: React.FC = () => {
                 referrerPolicy="no-referrer"
                 className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
+              <div className="absolute inset-0 bg-linear-to-t from-black/80 via-black/20 to-transparent" />
               
               {/* Category & Bookmark Pill */}
               <div className="absolute top-4 left-4 right-4 flex items-center justify-between text-xs text-white">

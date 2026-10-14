@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import forestMeditationRetreat from '../assets/images/forest_meditation_retreat_1791924429897.jpg';
 import {
   MapPin,
   Compass,
@@ -93,7 +94,7 @@ export const SpiritualPlacesMap: React.FC = () => {
         ambientSound: 'Natural silence and gentle wind rustle',
       },
       bestTime: 'Early morning sunrise',
-      image: '/src/assets/images/forest_meditation_retreat_1791924429897.jpg',
+      image: forestMeditationRetreat,
       history: 'Personal discovery pinned to Elevate-Mindfulness pilgrimage map.',
       meditationGuidance: 'Breathe gently, recognizing sacred ground in everyday nature.',
     };

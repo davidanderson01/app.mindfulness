@@ -48,7 +48,7 @@ export const Navbar: React.FC<NavbarProps> = ({
             >
               <ElevateLogo className="w-[26px] h-[26px] shrink-0 group-hover:scale-105 transition-transform" />
               <span className="font-sans text-xl font-semibold tracking-tight text-stone-900 dark:text-stone-100 whitespace-nowrap shrink-0 leading-tight">
-                Elevate- Mindfulness
+                Elevate-Mindfulness
               </span>
             </button>
             {isOfflineMode && (

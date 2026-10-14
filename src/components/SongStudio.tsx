@@ -354,7 +354,7 @@ export const SongStudio: React.FC<SongStudioProps> = ({ onOpenPaidKeyFlow }) => 
       <div className="mb-8">
         <div className="flex items-center gap-2 text-xs font-mono text-stone-500 dark:text-stone-400 uppercase tracking-widest mb-2">
           <ElevateLogo className="w-4 h-4 shrink-0" />
-          <span>Elevate- Mindfulness · Meditation Song Studio</span>
+          <span>Elevate-Mindfulness · Meditation Song Studio</span>
         </div>
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
           <div>

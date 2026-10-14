@@ -1,3 +1,8 @@
+import crystalSoundBath from '../assets/images/crystal_sound_bath_1791924429632.jpg';
+import forestMeditationRetreat from '../assets/images/forest_meditation_retreat_1791924429897.jpg';
+import himalayanMonastery from '../assets/images/himalayan_monastery_1791924429237.jpg';
+import zenStoneSanctuary from '../assets/images/zen_stone_sanctuary_1791924428174.jpg';
+
 import {
   MeditationSession,
   BreathingPattern,
@@ -20,7 +25,7 @@ export const MEDITATION_SESSIONS: MeditationSession[] = [
     description: 'A gentle, systematic return to the present moment. We observe the subtle touch of the breath at the nostrils, noticing thoughts without clinging or judgment, cultivating unshakable inner equanimity.',
     guideName: 'Bodhi Varma',
     audioTheme: 'stream-flow',
-    image: '/src/assets/images/zen_stone_sanctuary_1791924428174.jpg',
+    image: zenStoneSanctuary,
     intensity: 'Gentle',
     steps: [
       { timeOffset: 0, cue: 'Arrive in your seat', transcription: 'Find a comfortable upright posture. Allow your shoulders to drop away from your ears. Close your eyes gently or soften your downward gaze.' },
@@ -40,7 +45,7 @@ export const MEDITATION_SESSIONS: MeditationSession[] = [
     description: 'Immerse your body in rich metal singing bowl resonance. The acoustic frequencies dissolve sympathetic nervous tension, gently coaxing your brainwaves into deep theta restoration.',
     guideName: 'Tenzin Norbu',
     audioTheme: 'tibetan-bowls',
-    image: '/src/assets/images/crystal_sound_bath_1791924429632.jpg',
+    image: crystalSoundBath,
     intensity: 'Deep Immersion',
     steps: [
       { timeOffset: 0, cue: 'Initial strike & grounding', transcription: 'Lie down comfortably on your back or cushion. Let the initial resonance wash through your spine and diaphragm.' },
@@ -60,7 +65,7 @@ export const MEDITATION_SESSIONS: MeditationSession[] = [
     description: 'Rooted in classical Tantric Yoga Nidra and contemporary neurobiology, NSDR induces brain states akin to slow-wave sleep while maintaining alert consciousness, replenishing dopamine reserves.',
     guideName: 'Mira Anand',
     audioTheme: 'deep-drone',
-    image: '/src/assets/images/himalayan_monastery_1791924429237.jpg',
+    image: himalayanMonastery,
     intensity: 'Restorative',
     steps: [
       { timeOffset: 0, cue: 'Sankalpa (Heart Intention)', transcription: 'Formulate a short, positive resolve in the present tense. Feel it echoing in your chest.' },
@@ -81,7 +86,7 @@ export const MEDITATION_SESSIONS: MeditationSession[] = [
     description: 'Systematically radiate benevolence outward: beginning with yourself, expanding to a benefactor, a beloved friend, a neutral stranger, a difficult person, and ultimately all sentient beings.',
     guideName: 'Kalyana Mitra',
     audioTheme: 'crystal-resonance',
-    image: '/src/assets/images/forest_meditation_retreat_1791924429897.jpg',
+    image: forestMeditationRetreat,
     intensity: 'Moderate',
     steps: [
       { timeOffset: 0, cue: 'Warmth in the chest', transcription: 'Place one hand on your heart center. Sense the natural warmth and pulse beneath your palm.' },
@@ -101,7 +106,7 @@ export const MEDITATION_SESSIONS: MeditationSession[] = [
     description: 'No visualizations, no mantras, no breath counting. Just upright sitting. Like a mountain in the wind, thoughts arise, abide momentarily, and vanish into the infinite sky.',
     guideName: 'Roshi Kensho',
     audioTheme: 'rain-silence',
-    image: '/src/assets/images/zen_stone_sanctuary_1791924428174.jpg',
+    image: zenStoneSanctuary,
     intensity: 'Deep Immersion',
     steps: [
       { timeOffset: 0, cue: 'Aligning the cosmic mudra', transcription: 'Sit tall with hips elevated. Place right hand palm up in lap, left hand resting over it, thumbs lightly touching to form an oval.' },
@@ -120,7 +125,7 @@ export const MEDITATION_SESSIONS: MeditationSession[] = [
     description: 'Combining physiological sighs, gentle cervical lateral gaze resets, and extended exhales to activate the ventral vagal parasympathetic brake, dropping heart rate within minutes.',
     guideName: 'Dr. Elena Rostova',
     audioTheme: 'stream-flow',
-    image: '/src/assets/images/forest_meditation_retreat_1791924429897.jpg',
+    image: forestMeditationRetreat,
     intensity: 'Gentle',
     steps: [
       { timeOffset: 0, cue: 'Physiological sigh', transcription: 'Take two quick sniffs through the nose: one deep, followed immediately by a second top-off sniff. Then a long, unforced sigh through open lips.' },
@@ -255,7 +260,7 @@ export const SPIRITUAL_PLACES: SpiritualPlace[] = [
       ambientSound: 'Raked gravel crunch & dripping bamboo water-shishi',
     },
     bestTime: 'Early morning at 7:30 AM before arrival of foot traffic',
-    image: '/src/assets/images/zen_stone_sanctuary_1791924428174.jpg',
+    image: zenStoneSanctuary,
     history: 'Founded in 1450 by Hosokawa Katsumoto, serving as the world benchmark of Zen contemplative aesthetics.',
     meditationGuidance: 'Sit on the cedar veranda. Fasten your gaze on the blank raked gravel spaces rather than the stones themselves.',
   },
@@ -274,7 +279,7 @@ export const SPIRITUAL_PLACES: SpiritualPlace[] = [
       ambientSound: 'Deep sub-bass chanting, wind through prayer flags, long horn echoes',
     },
     bestTime: 'Sunrise during the morning Puja prayer ceremony (6:00 AM)',
-    image: '/src/assets/images/himalayan_monastery_1791924429237.jpg',
+    image: himalayanMonastery,
     history: 'Constructed in 1430 CE, noted for its 15-meter tall gilded Maitreya Buddha statue embodying future peace.',
     meditationGuidance: 'Close your eyes as the monks begin harmonic overtone throat chanting. Feel the acoustic vibrations resound in your bones.',
   },
@@ -293,7 +298,7 @@ export const SPIRITUAL_PLACES: SpiritualPlace[] = [
       ambientSound: 'Pure subterranean glacier melt bubbling through mossy stones',
     },
     bestTime: 'Mid-summer twilight when the volcanic alpenglow bathes the snow',
-    image: '/src/assets/images/forest_meditation_retreat_1791924429897.jpg',
+    image: forestMeditationRetreat,
     history: 'Held as sacred ground for thousands of years; modern sound therapists gather here for open-air acoustic resonance.',
     meditationGuidance: 'Dip your fingertips in the glacier water. Sit on a volcanic stone with bare feet touching the earth.',
   },
@@ -312,7 +317,7 @@ export const SPIRITUAL_PLACES: SpiritualPlace[] = [
       ambientSound: 'Whirling quartz crystal bowl harmonics reflecting off curved cedar ribs',
     },
     bestTime: 'Late afternoon as the desert heat cools to golden dusk',
-    image: '/src/assets/images/crystal_sound_bath_1791924429632.jpg',
+    image: crystalSoundBath,
     history: 'Designed by George Van Tassel in 1959 with zero metal fasteners, constructed entirely of Douglas fir laminated beams.',
     meditationGuidance: 'Lie in the center of the wooden floor. Notice how sound waves feel physical against your sternum.',
   },
@@ -331,7 +336,7 @@ export const SPIRITUAL_PLACES: SpiritualPlace[] = [
       ambientSound: 'Droplets falling from mossy canopies into clear forest pools',
     },
     bestTime: 'Morning fog just after a warm Pacific rainfall',
-    image: '/src/assets/images/forest_meditation_retreat_1791924429897.jpg',
+    image: forestMeditationRetreat,
     history: 'Inscribed as a UNESCO World Heritage site, inspiring contemplative masters and classical nature poets for centuries.',
     meditationGuidance: 'Practice kinetic walking meditation (Kinhin). Synchronize each slow footstep with one full cycle of breath.',
   },
@@ -350,7 +355,7 @@ export const SPIRITUAL_PLACES: SpiritualPlace[] = [
       ambientSound: 'Gentle desert breeze whistling through red rock crevices',
     },
     bestTime: 'Golden hour before sunset when the cliffs turn fiery crimson',
-    image: '/src/assets/images/zen_stone_sanctuary_1791924428174.jpg',
+    image: zenStoneSanctuary,
     history: 'Sacred to the Yavapai-Apache Nation as the birth rock of humanity.',
     meditationGuidance: 'Sit facing the stone spires. Inhale the warm mineral scent of the earth.',
   },

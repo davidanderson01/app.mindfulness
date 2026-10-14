@@ -146,22 +146,42 @@ export default function App() {
 
       {/* Quiet Minimalist Zen Footer */}
       <footer className="border-t border-stone-200/80 dark:border-stone-850/80 py-8 px-4 sm:px-6 text-xs text-stone-500 dark:text-stone-500 bg-stone-100/50 dark:bg-stone-900/30">
-        <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="flex items-center gap-3">
-            <ElevateLogo className="w-6 h-6 shrink-0" />
-            <span className="font-sans font-semibold text-stone-800 dark:text-stone-200 text-sm tracking-tight">
-              Elevate- Mindfulness
-            </span>
-            <span>·</span>
-            <span>Mindfulness, Sound Baths & Sacred Sanctuaries</span>
+        <div className="max-w-7xl mx-auto flex flex-col gap-5">
+          <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
+            <div className="flex flex-wrap items-center justify-center gap-x-3 gap-y-2 text-center lg:justify-start">
+              <ElevateLogo className="w-6 h-6 shrink-0" />
+              <span className="font-sans font-semibold text-stone-800 dark:text-stone-200 text-sm tracking-tight">
+                Elevate-Mindfulness
+              </span>
+              <span>·</span>
+              <span>Mindfulness, Sound Baths & Sacred Sanctuaries</span>
+              <a
+                href="https://elevate-craft.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="font-medium text-stone-700 dark:text-stone-300 underline decoration-stone-400/60 underline-offset-4 hover:text-emerald-700 dark:hover:text-emerald-400 transition-colors"
+              >
+                elevate-craft.com
+              </a>
+            </div>
+
+            <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs font-mono">
+              <span>Offline Audio Synthesizer</span>
+              <span>·</span>
+              <span>Web Audio API</span>
+              <span>·</span>
+              <span>Tabular Presence</span>
+            </div>
           </div>
 
-          <div className="flex items-center gap-4 text-xs font-mono">
-            <span>Offline Audio Synthesizer</span>
-            <span>·</span>
-            <span>Web Audio API</span>
-            <span>·</span>
-            <span>Tabular Presence</span>
+          <div className="flex flex-col sm:flex-row items-center justify-center sm:justify-between gap-2 border-t border-stone-200/80 dark:border-stone-800/80 pt-4">
+            <p className="text-center sm:text-left">Questions, concerns, or comments?</p>
+            <a
+              href="mailto:hello@mindfulness.elevate-craft.com"
+              className="font-medium text-stone-700 dark:text-stone-300 underline decoration-stone-400/60 underline-offset-4 hover:text-emerald-700 dark:hover:text-emerald-400 transition-colors"
+            >
+              hello@mindfulness.elevate-craft.com
+            </a>
           </div>
         </div>
       </footer>

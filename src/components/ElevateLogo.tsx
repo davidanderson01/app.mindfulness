@@ -231,7 +231,7 @@ export const ElevateLogo: React.FC<ElevateLogoProps> = ({
       <div className="inline-flex items-center gap-2.5 shrink-0">
         {svgElement}
         <span className={wordmarkClassName}>
-          Elevate- Mindfulness
+          Elevate-Mindfulness
         </span>
       </div>
     );

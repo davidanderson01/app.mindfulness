@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import zenStoneSanctuary from '../assets/images/zen_stone_sanctuary_1791924428174.jpg';
 import {
   Sparkles,
   Clock,
@@ -114,7 +115,7 @@ export const DailySanctuary: React.FC<DailySanctuaryProps> = ({
           {/* Right Hero Image (5 cols) */}
           <div className="lg:col-span-5 relative min-h-[260px] lg:min-h-full">
             <img
-              src="/src/assets/images/zen_stone_sanctuary_1791924428174.jpg"
+              src={zenStoneSanctuary}
               alt="Zen stone sanctuary garden at Ryōan-ji"
               referrerPolicy="no-referrer"
               className="absolute inset-0 w-full h-full object-cover"

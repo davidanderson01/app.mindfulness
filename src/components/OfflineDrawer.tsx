@@ -59,7 +59,7 @@ export const OfflineDrawer: React.FC<OfflineDrawerProps> = ({
             <div>
               <div className="flex items-center gap-2 text-xs font-mono text-emerald-800 dark:text-emerald-400 uppercase tracking-widest mb-0.5">
                 <Download className="w-3.5 h-3.5" />
-                <span>Elevate- Mindfulness</span>
+                <span>Elevate-Mindfulness</span>
               </div>
               <h3 className="font-serif text-2xl font-medium tracking-tight">
                 Offline Playback & Storage
